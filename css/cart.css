@@ -1,0 +1,140 @@
+
+
+.badge {
+  background-color: #f39c00;
+    border-radius: 100%;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1;
+      width: 19px;
+    padding: 4px 0px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.shopping-cart {
+
+ margin: 20px 0;
+    border: 1px solid #ccc;
+    float: right;
+    background: #ffffff;
+    width: 300px;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+}
+.shopping-cart .shopping-cart-header {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 15px;
+}
+.shopping-cart .shopping-cart-header .shopping-cart-total {
+  float: right;
+}
+.shopping-cart .shopping-cart-items {
+  padding-top: 20px;
+}
+.shopping-cart ul.shopping-cart-items{
+  margin: 0;
+  padding: 0;
+}
+.shopping-cart .shopping-cart-items li {
+  margin-bottom: 18px;
+  list-style: none;
+}
+.shopping-cart .shopping-cart-items img {
+  float: left;
+  margin-right: 12px;
+}
+.item-name {
+  display: block;
+  padding-top: 10px;
+  font-size: 11px;
+  color: #2f2f2f;
+  padding-left: 10px;
+}
+a.btn_delete {
+  display: block;
+  padding-top: 10px;
+  font-size: 11px;
+  color: #707070;
+  text-decoration: none;
+}
+a.btn_delete:hover{
+  color: #000;
+}
+.item-sku {
+  display: block;
+  font-size: 11px;
+   color: #B9B9B9;
+  padding-left: 10px;
+}
+.item-points {
+  
+      color: #666666;
+    margin-right: 8px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+.item-points .price{
+  
+   margin-left: 20px;
+}
+
+a.btn_azul {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 80%;
+    padding: 9px;
+    color: #ffffff;
+    border-radius: 20px;
+    background: #0075C9;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.shopping-cart:after {
+  bottom: 100%;
+  left: 89%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #ffffff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+.cart-icon {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+.button {
+ border: none;
+    background: #00ac5c;
+    color: #ffffff !important;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+}
+.button:hover {
+  background: #1ad67e;
+  text-decoration: none;
+  color: #fff !important;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

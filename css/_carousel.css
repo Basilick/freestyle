@@ -1,0 +1,172 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	
+    right: 20%;
+    top: 12%;
+    z-index: 10;
+    width: auto;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 455px;
+
+background: rgba(191,163,49,1);
+background: -moz-linear-gradient(top, rgba(191,163,49,1) 0%, rgba(209,180,92,1) 9%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(191,163,49,1)), color-stop(9%, rgba(209,180,92,1)), color-stop(80%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(191,163,49,1) 0%, rgba(209,180,92,1) 9%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(191,163,49,1) 0%, rgba(209,180,92,1) 9%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(191,163,49,1) 0%, rgba(209,180,92,1) 9%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(191,163,49,1) 0%, rgba(209,180,92,1) 9%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfa331', endColorstr='#ffffff', GradientType=0 );
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 250px;
+}
+.carousel-item > picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+}
+
+.carousel-item > picture > img{
+  height: 100%;
+	    margin-top: 40px;
+	    padding-left: 200px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+.carousel-caption h1 {
+	
+	color:#f39c00 ;
+	    font-size: 46px;
+    font-weight: 600;
+}
+
+.carousel-caption h1 .txt_azu_h1 {
+	
+	color:#003e98;
+	
+}
+
+.carousel-caption h1 .txt_white_h1 {
+	
+	color:#ffffff;
+	
+}
+
+.carousel-caption .txt_white_slide {
+	
+	color:#ffffff;
+	
+}
+
+.carousel-caption p {
+    margin-bottom: 30px;
+    font-size: 23px;
+    line-height: 1.3;
+    color:#212c65;
+	
+  }
+
+.carousel-caption p.txt_1a {
+    	    font-weight: 300;
+        font-size: 40px;
+    margin: 0;
+	color: #ffffff;
+    
+  }
+
+.btn_mas_info {
+	
+    color: #ffffff;
+    background: #00ac5c;
+    width: 200px;
+    
+    display: block;
+
+    margin: auto;
+  
+    padding: 10px;
+	border-radius: 25px;
+}
+
+.btn_mas_info:hover {
+	
+	cursor: pointer;
+    color: #ffffff;
+    background: #1ad67e;
+   
+}
+	
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 30px;
+    font-size: 23px;
+    line-height: 1.3;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

@@ -1,0 +1,646 @@
+/*----------------
+Template Name: Bootstrap Coming Soon Templates
+Theme URI:  http://grafreez.com/743/bootstrap-coming-soon-templates
+Author: Amrit Virk
+Author URI: https://grafreez.com/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+----------------*/
+
+
+
+/*custom font*/
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../assets/fonts/Roboto-Regular-webfont.woff');
+    src: url('../assets/fonts/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+      src: url('../assets/fonts/Roboto-Bold-webfont.woff');
+    src: url('../assets/fonts/Roboto-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+      src: url('../assets/fonts/Roboto-Light-webfont.woff');
+    src: url('../assets/fonts/Roboto-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+      src: url('../assets/fonts/Roboto-Medium-webfont.woff');
+    src: url('../assets/fonts/Roboto-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+
+body,html{
+	height: 100%;
+}
+body{
+
+	font-family: 'robotoregular';
+	color: #ffffff;
+}
+
+
+/* ========== General ========== */
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'robotoregular';
+	font-weight: 700;
+}
+a {
+	color: #ffffff;
+	text-decoration: underline;
+
+}
+
+p {
+ 
+	font-family: 'robotolight';
+	
+}
+
+h2 {
+ 
+	font-family: 'robotoregular';
+	font-weight: 500;
+	
+}
+a.btn_azul_a {
+    text-decoration: none;
+    color: #fff;
+    width: 42%;
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #0075C9;
+    margin: auto;
+    margin-top: 32px;
+}
+
+a.btn_azul_a:hover {
+    
+    background-color: #1b97f1;
+   
+}
+
+input:focus {
+	outline: none;
+} 
+
+.btn{
+	border-radius: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+.btn:focus{
+	box-shadow: none;
+}
+.btn-primary{
+	background-color: #00cec9;
+	border-color: #00cec9; 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active{
+	background-color: #098c87;
+	border-color: #098c87; 
+}
+.form-control{
+	border-radius: 0;
+	border:none;
+	border-bottom: 2px solid #666;
+}
+.form-control:focus{
+	box-shadow: none;
+}
+
+/* ========== CONTAINER ========== */
+.container-fluid {
+	height: 100%;
+		
+}
+
+.row {
+	height: 100%;
+		
+}
+
+
+
+/* ========== LADO IZQUIERDO ========== */
+.log_lad_izq {
+	background-image: url(../assets/img/bg_log_lad_izq.jpg);
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	height: auto;
+	
+	
+	
+}
+
+
+
+.bg_color_izq {
+   
+	background: rgba(22,65,113,.8) ;
+	
+	
+	
+}
+
+.bg_color_izq .cont_lad_izq {
+	margin: auto;
+    text-align: center;
+    vertical-align: middle;
+	height: 379px;
+	
+}
+
+.bg_color_izq .cont_lad_izq h2 {
+	font-size: 23px;
+	margin-bottom: 50px;
+	
+}
+
+.bg_color_izq .cont_lad_izq a {
+	font-size: 15px;
+
+	
+	
+}
+
+
+
+
+
+
+/* ========== LADO DERECHO ========== */
+.log_lad_der {
+	
+	background-image: url(../assets/img/bg_log_lad_der.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	
+}
+
+
+.bg_color_der {
+   
+	background: rgba(235,102,5,.8) ;
+	
+	
+	
+}
+
+
+.bg_color_der .cont_lad_der {
+	margin: auto;
+    text-align: center;
+    vertical-align: middle;
+	
+}
+
+.bg_color_der .cont_lad_der h2 {
+	font-size: 23px;
+	margin-bottom: 50px;
+	
+}
+
+.bg_color_der .cont_lad_der a {
+	font-size: 15px;
+
+	
+	
+}
+
+.bg_color_der .cont_lad_der .input-group  {
+    width: 43%;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+	
+}
+
+.bg_color_der .cont_lad_der .input-group span {
+    color: #000;
+    padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+.bg_color_der .cont_lad_der .input-group input {
+     width: 81%;
+    margin: auto;
+    border-radius: 20px;
+    height: 42px;
+    border: none;
+    padding-left: 0px;
+	
+}
+
+
+.bg_color_der .cont_lad_der .btn_forg_pass {
+	font-family: 'robotolight';
+	font-size:15px ;
+	margin-top: 33px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+	
+}
+
+.bg_color_der .cont_lad_der .btn_contat {
+	font-family: 'robotolight';
+	font-size:15px ;
+	margin-top: 15px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+	
+}
+
+
+.bg_color_der .cont_lad_der .btn_contat:hover {
+
+    text-decoration: underline;
+	
+}
+
+.bg_color_der .cont_lad_der .btn_forg_pass:hover {
+	
+    text-decoration: underline;
+	
+}
+
+.bg_color_der .cont_lad_der .txt_mastl {
+	font-size:14px ;
+	margin-top: 17px;
+	margin-bottom: 0;
+	
+}
+
+.bg_color_der .cont_lad_der ul  {
+	list-style: none;
+}
+
+.bg_color_der .cont_lad_der ul li {
+	display: inline-block;
+}
+
+.bg_color_der .cont_lad_der ul li a {
+	    font-size: 14px;
+	 text-decoration: none;
+	color: #ffffff;
+	font-family: 'robotolight';
+}
+
+.bg_color_der .cont_lad_der ul li a:hover {
+	 text-decoration: underline;
+	color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+#  Contacto
+--------------------------------------------------------------*/
+#contat {
+    
+}
+
+#contat .cont_gra_regi p{
+    color: #ffffff;
+    font-size: 16px;
+        margin-bottom: 30px;
+
+}
+#contat .cont_gra_regi .txt_gra_reg {
+    font-size: 20px;
+    color:#FED410;
+    font-family: 'robotomedium';
+
+}
+#contat .cont_gra_regi .txt_dudas {
+color:#79E0FF;
+}
+#contat .cont_gra_regi .btn_inici_ses {
+        font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 47%;
+    padding: 9px;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: auto;
+    background: #0075C9;
+    margin-bottom: 30px;
+
+}
+
+#contat input {
+        width: 47%;
+    height: 40px;
+    margin: auto;
+    /* color: #eee; */
+    border-radius: 50px;
+    padding-left: 26px;
+    margin-bottom: 21px;
+	margin-left: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+/*--------------------------------------------------------------
+#  RECUPERAR CONTRA MODAL
+--------------------------------------------------------------*/
+#recupera_con {
+    
+}
+
+#recupera_con .cont_gra_regi p{
+    color: #ffffff;
+    font-size: 16px;
+        margin-bottom: 30px;
+
+}
+#recupera_con .cont_gra_regi .txt_gra_reg {
+    font-size: 20px;
+    color:#FED410;
+    font-family: 'robotomedium';
+
+}
+#recupera_con .cont_gra_regi .txt_dudas {
+color:#79E0FF;
+}
+#recupera_con .cont_gra_regi .btn_inici_ses {
+        font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 47%;
+    padding: 9px;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: auto;
+    background: #0075C9;
+    margin-bottom: 30px;
+
+}
+
+#recupera_con input {
+        width: 47%;
+    height: 40px;
+    margin: auto;
+    /* color: #eee; */
+    border-radius: 50px;
+    padding-left: 26px;
+    margin-bottom: 21px;
+    border: 1px solid #d8d8d8;
+}
+
+
+/*--------------------------------------------------------------
+#  CONTRASEÑA ENVIADA MODAL
+--------------------------------------------------------------*/
+#contra_envi {
+    
+}
+
+#contra_envi .cont_gra_regi p{
+    color: #ffffff;
+    font-size: 16px;
+        margin-bottom: 30px;
+
+}
+#contra_envi .cont_gra_regi .txt_gra_reg {
+    font-size: 20px;
+    color:#FED410;
+    font-family: 'robotomedium';
+
+}
+#contra_envi .cont_gra_regi .txt_dudas {
+color:#79E0FF;
+}
+#contra_envi .cont_gra_regi .btn_inici_ses {
+        font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 47%;
+    padding: 9px;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: auto;
+    background: #0075C9;
+    margin-bottom: 30px;
+	margin-top: 30px;
+
+}
+
+#contra_envi input {
+        width: 47%;
+    height: 40px;
+    margin: auto;
+    /* color: #eee; */
+    border-radius: 50px;
+    padding-left: 26px;
+    margin-bottom: 21px;
+    border: 1px solid #d8d8d8;
+}
+
+
+
+/*--------------------------------------------------------------
+# MODAL
+--------------------------------------------------------------*/
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 4000;
+    top: 0;
+    left: 0;
+	background: #003067;
+    overflow-y: hidden;
+	opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay h3 {
+    color: #ffffff;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    /*font-size: 36px;*/
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+ 	position: absolute;
+    top: -53px;
+    right: 25%;
+    /* left: 377px; */
+    /* right: 45px; */
+    width: 53px;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 0;
+    color: #d6d6d6;
+    border-radius: 50%;
+    /* background: #ffffff; */
+    height: 54px;
+    z-index: 888;
+    /* border-color: #fff; */
+}
+
+.overlay .closebtn:hover {
+ 	cursor: pointer;
+	 color:#d6d6d6;
+   
+ 
+}
+
+
+/* ========== Responsive Media Queries ========== */
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+}/*480END*/
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+
+	
+	
+}/*992END*/
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 480px) {
+	
+	.bg_color_izq .cont_lad_izq {
+  
+    height: 250px;
+}
+	
+	a.btn_azul_a {
+		    margin-top: 26px;
+    width: 90%;
+	}
+	
+.bg_color_izq .cont_lad_izq h2 {
+   
+    margin-top: 45px;
+    margin-bottom: 23px;
+}
+	
+	.bg_color_der .cont_lad_der h2 {
+       margin-top: 26px;
+    margin-bottom: 28px;
+}
+	
+.bg_color_der .cont_lad_der .input-group {
+    width: 90%;
+	}
+	
+.bg_color_der .cont_lad_der .btn_forg_pass {
+
+    margin-top: 13px;
+	}
+
+.bg_color_der .cont_lad_der .txt_mastl {
+    font-size: 11px;
+	margin-top: 12px;
+	}
+	
+.bg_color_der .cont_lad_der ul li a {
+    font-size: 12px;
+	}
+	
+/*MODALES*/	
+	
+.overlay-content {
+     top: 13%;
+	
+	}
+	
+.overlay .closebtn {
+    top: -45px;
+    right: 2%;
+	}
+	
+#recupera_con .cont_gra_regi p {
+
+    font-size: 15px;
+   
+}
+	
+#recupera_con input {
+    width: 95%;
+}
+	
+#recupera_con .cont_gra_regi .btn_inici_ses {
+    width: 95%;
+	
+}
+	
+#contat input {
+    width: 95%;
+}
+	
+#contat .cont_gra_regi .btn_inici_ses {
+    width: 95%;
+	
+}	
+	
+#contra_envi .cont_gra_regi .btn_inici_ses {
+ 
+    width: 95%;
+	}
+
+
+	
+	
+}/*480END*/
+
+
+
