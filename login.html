@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<title>Login : Freestyle</title>
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/fa-svg-with-js.css">
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="css/global-style.css">
+		<link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+	</head>
+	
+	
+	
+	<body>
+		
+	
+			<div class="container-fluid">
+				
+				<div class="row">
+					
+					<div class="col-sm-6 log_lad_izq">
+						<div class="row bg_color_izq">
+							<div class="col-sm-12 cont_lad_izq">
+							
+								<h2>¿Aún no tienes cuenta?</h2>
+								
+								<p>Regístrate, es muy fácil, seguro y gratuito.</p>
+								
+								<a href="registro.html" class="btn_azul_a">IR AL REGISTRO</a>
+								
+							</div>
+						
+						</div>
+					
+					</div>
+					
+					<div class="col-sm-6 log_lad_der">
+						<div class="row bg_color_der">
+							<div class="col-sm-12 cont_lad_der">
+								
+								<h2>Ingresa a tu cuenta</h2>
+								
+								<form>
+  										<div class="input-group">
+										<span class=""><i class="fal fa-user"></i></span>
+        								<input class="" type="text" name="usuario" placeholder="Usuario">
+        								
+    									</div>
+								
+  								<br>
+ 
+									<div class="input-group">
+										<span class=""><i class="fal fa-lock-alt"></i></span>
+        								<input class="" type="text" name="password" placeholder="Contraseña">
+        								
+    								</div>
+									
+								</form>
+								
+								<a href="index.html" class="btn_azul_a">ENTRAR</a>
+								
+								<a href="javascript:void(0)" class="btn_forg_pass" onclick="openRecuperacon()">¿Olvidaste tu contraseña?</a>
+								
+								<a href="javascript:void(0)" class="btn_contat" onclick="openContacto()">Contacto</a>
+								
+								<p class="txt_mastl">Master Loyalty Group es distribuidor autorizado por Abbott.</p>
+								
+								<ul>
+								<li><a href="politicas_reemplazo.html">Política de reemplazo</a></li>
+								<li>| <a href="aviso_privacidad.html">Aviso de Privacidad</a></li>
+								<li>| <a href="terminos_condiciones.html">Términos y Condiciones</a></li>
+								<li>| <a href="preguntas_frecuentes.html">FAQ’s</a></li>
+									
+								</ul>
+							
+							</div>
+						</div>
+					
+					</div>
+		
+				</div>	
+				
+				
+				
+				<!-- MODALES -->
+	
+		
+		<div id="recupera_con" class="overlay">
+                  
+                  <div class="overlay-content">
+					  
+					
+					  
+                    <div class="container">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeRecuperacon()">X</a>
+                      <div class="row">
+                        <div class="col">
+						 </div>
+                        	
+						  <div class="col-md-8 cont_gra_regi">
+							
+							  	<div class="col-sm-12">
+                            	<p class="txt_gra_reg">Recuperar contraseña</p>
+								<p>Por favor, introduce tu correo electrónico con el que estés registrado.</p>
+
+	
+                          		</div>
+							  
+							    <div class="col-sm-12 " >	
+                        		<input type="text" placeholder="Correo electrónico" >
+								<a href="javascript:void(0)" class="btn_inici_ses" onclick="openContraenvi(),closeRecuperacon()" >ENVIAR CONTRASEÑA</a>	
+								</div>
+							  
+							  <div class="col-sm-12">
+                            	<p class="txt_dudas">Dudas sobre la tienda, compras y pedidos: (0155) 1250-2340 <br>Lunes a viernes de 09:00 a 19:00hrs.</p>
+								<p class="txt_dudas">Dudas sobre el producto, funcionamiento y garantía: 01 800 711 2208<br> Lunes a viernes de 8:00 a 18:00 hrs.</p>
+									
+								   
+								
+                          		</div>
+							  
+							 	
+								
+						  
+						  
+						  </div>
+                        <div class="col">
+						</div>
+                      </div>
+                    </div>
+                    
+                  </div>
+        </div>
+				
+				
+			<div id="contra_envi" class="overlay">
+                  
+                  <div class="overlay-content">
+					  
+					
+					  
+                    <div class="container">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeContraenvi()">X</a>
+                      <div class="row">
+                        <div class="col">
+						 </div>
+                        	
+						  <div class="col-md-8 cont_gra_regi">
+							
+							  	<div class="col-sm-12">
+                            	<p class="txt_gra_reg">¡Tu contraseña ha sido enviada!</p>
+								<p>En unos minutos recibirás un correo electrónico con tu contraseña.</p>
+
+	
+                          		</div>
+							  
+							    <div class="col-sm-12 " >	
+                        		
+								<a href="javascript:void(0)" class="btn_inici_ses" onClick="closeContraenvi()" >INICIAR SESIÓN</a>	
+								</div>
+							  
+							  <div class="col-sm-12">
+                            	<p class="txt_dudas">Dudas sobre la tienda, compras y pedidos: (0155) 1250-2340 <br>Lunes a viernes de 09:00 a 19:00hrs.</p>
+								<p class="txt_dudas">Dudas sobre el producto, funcionamiento y garantía: 01 800 711 2208<br> Lunes a viernes de 8:00 a 18:00 hrs.</p>
+									
+								   
+								
+                          		</div>
+							  
+							 	
+								
+						  
+						  
+						  </div>
+                        <div class="col">
+						</div>
+                      </div>
+                    </div>
+                    
+                  </div>
+        </div>	
+				
+				
+				
+					<div id="contat" class="overlay">
+                  
+                  <div class="overlay-content">
+					  
+					
+					  
+                    <div class="container">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeContacto()">X</a>
+                      <div class="row">
+                        <div class="col">
+						 </div>
+                        	
+						  <div class="col-md-8 cont_gra_regi">
+							
+							  	<div class="col-sm-12">
+                            	<p class="txt_gra_reg">Contacto</p>
+								<p>Por favor, llena los siguientes campos</p>
+
+	
+                          		</div>
+							  
+							    <div class="col-md-12" >
+										
+								
+										
+                        		<input type="text" placeholder="Nombre" >
+								<input type="text" placeholder="Correo electronico" >
+								<input type="text" placeholder="Estado" >		
+										
+								
+								
+									
+									
+										
+										
+                        		<input type="text" placeholder="Asunto" >
+								<a href="javascript:void(0)" class="btn_inici_ses" onclick="closeContacto()" >ENVIAR</a>	
+								
+										
+									
+								</div>
+							  
+							  
+							  
+							  
+							  <div class="col-sm-12">
+                            	<p class="txt_dudas">Dudas sobre la tienda, compras y pedidos: (0155) 1250-2340 <br>Lunes a viernes de 09:00 a 19:00hrs.</p>
+								   
+								
+                          		</div>
+							  
+							 	
+								
+						  
+						  
+						  </div>
+                        <div class="col">
+						</div>
+                      </div>
+                    </div>
+                    
+                  </div>
+        </div>
+				
+				
+	
+			</div>
+			
+	
+		
+	
+			
+
+		
+		
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>	
+	 <script src="js/bootstrap-select.min.js"></script>		
+	<script src="js/fontjs/fa-brands.js"></script>
+	<script src="js/fontjs/fa-light.js"></script>
+	<script src="js/fontjs/fa-regular.js"></script>
+	<script src="js/fontjs/fa-solid.js"></script>
+	<script src="js/fontjs/fa-v4-shims.js"></script>
+	<script src="js/fontawesome-all.js"></script>	
+	<script src="js/jquery.touchSwipe.min.js"></script>	
+    <script src="js/sticky.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+		 <script  src="js/login.js"></script>
+		<script type="text/javascript">
+			
+		</script>
+		
+	<script>
+
+        function openRecuperacon() {
+            document.getElementById("recupera_con").style.cssText='width:100%;opacity:1;';
+                $(document).ready(function(){
+                $(this).find('#recupera_con').focus();
+            });
+        }
+
+        function closeRecuperacon() {
+            document.getElementById("recupera_con").style.cssText='width:0;opacity:0;';
+        }
+</script>
+		
+		
+		
+		
+		<script>
+
+        function openContraenvi() {
+            document.getElementById("contra_envi").style.cssText='width:100%;opacity:1;';
+                $(document).ready(function(){
+                $(this).find('#contra_envi').focus();
+            });
+        }
+
+        function closeContraenvi() {
+            document.getElementById("contra_envi").style.cssText='width:0;opacity:0;';
+        }
+</script>
+		
+		
+		<script>
+
+        function openContacto() {
+            document.getElementById("contat").style.cssText='width:100%;opacity:1;';
+                $(document).ready(function(){
+                $(this).find('#contat').focus();
+            });
+        }
+
+        function closeContacto() {
+            document.getElementById("contat").style.cssText='width:0;opacity:0;';
+        }
+</script>
+		
+		
+		
+	</body>
+</html>
